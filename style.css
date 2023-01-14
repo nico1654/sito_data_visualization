@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 16px;
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+
+header {
+	width: 100vw;
+	height: 64px;
+	background-color: #052f7d;
+	position: fixed; /* when scrolling, it remains fixed to its position with respect to the window */
+	top: 0;
+	left: 0;
+	color: #FFF;
+	display: flex; /* a way to display items in a layout */
+	justify-content: center; /* horizontal centring */
+	align-items: center; /* vertical centring */
+	z-index: 1000;
+}
+
+header.yellow {
+	background-color: #FEDA32;
+}
+
+body {
+	background-color: #c6ecd6;
+}
+
+
+.mainDiv{
+    margin: 0;
+    padding: 5vw;
+    display: flex;
+}
+
+.innerDiv{
+    margin: 10%;
+    padding:10px;
+}
+
+.postDiv{
+    background-color: lightgray;
+    border: black 1px solid;
+    padding: 20%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.innerPostDiv{
+    padding: 20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
